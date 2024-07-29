@@ -1,0 +1,1 @@
+enum BuildVariant { BETA, LIVE }
