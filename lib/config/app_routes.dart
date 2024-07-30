@@ -6,13 +6,13 @@ import 'package:flutter/widgets.dart';
 class AppRoutes {
   AppRoutes._();
 
-  static const initial = '/';
+  static const splash = '/splash';
   static const login = '/login';
   static const homeScreen = '/homeScreen';
 
   static Map<String, WidgetBuilder> define() {
     return {
-      initial: (context) => const SplashScreen(),
+      splash: (context) => const SplashScreen(),
       login: (context) => const LoginScreen(),
       homeScreen: (context) => const HomeScreen(),
     };

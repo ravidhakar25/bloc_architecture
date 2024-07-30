@@ -1,6 +1,7 @@
-import 'package:bloc_architecture/config/app_config.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+
+import 'app_config.dart';
 
 var appTheme = ThemeData(
 // Define the default brightness and colors.

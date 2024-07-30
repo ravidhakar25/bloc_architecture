@@ -1,9 +1,9 @@
-import 'package:bloc_architecture/config/app_theme.dart';
-import 'package:bloc_architecture/utils/app_size.dart';
+import 'package:bloc_architecture/config/app_routes.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import 'config/app_config.dart';
+import 'config/app_theme.dart';
 import 'config/build_variant.dart';
 
 void main() {
@@ -30,6 +30,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: appTheme,
       themeMode: ThemeMode.light,
+      routes: AppRoutes.define(),
       home: Scaffold(
         backgroundColor: AppConfig().colors.white,
           body: Center(

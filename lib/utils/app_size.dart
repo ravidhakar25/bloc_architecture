@@ -1,4 +1,5 @@
-import 'package:bloc_architecture/config/app_config.dart';
+
+import '../config/app_config.dart';
 
 extension AppSizeExt on num {
   double get dp {

@@ -1,18 +1,18 @@
-import 'package:bloc_architecture/res/app_colors.dart';
-import 'package:bloc_architecture/res/app_fonts.dart';
-import 'package:bloc_architecture/res/app_styles.dart';
-import 'package:bloc_architecture/utils/app_log.dart';
 import 'package:flutter/widgets.dart';
 
 import '../constants/endpoint.dart';
+import '../res/app_colors.dart';
+import '../res/app_fonts.dart';
 import '../res/app_icons.dart';
 import '../res/app_strings.dart';
+import '../res/app_styles.dart';
 import '../res/default/default_colors.dart';
 import '../res/default/default_endpoints.dart';
 import '../res/default/default_fonts.dart';
 import '../res/default/default_images.dart';
 import '../res/default/default_strings.dart';
 import '../res/default/default_styles.dart';
+import '../utils/app_log.dart';
 import '../variant/beta/beta_strings.dart';
 import '../variant/live/live_strings.dart';
 import 'build_variant.dart';

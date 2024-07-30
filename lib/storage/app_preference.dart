@@ -1,9 +1,9 @@
 import 'dart:convert';
 
-import 'package:bloc_architecture/utils/app_log.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../data/models/login_result.dart';
+import '../utils/app_log.dart';
 
 
 class AppPreference {
